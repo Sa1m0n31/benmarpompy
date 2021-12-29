@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Benmar Pompy</title>
+    <meta name="description" content="BenmarPompy - serwis pomp przemysłowych w Golubiu-Dobrzyniu. Serwis i naprawa pomp przemysłowych" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./mobile.css" />
 </head>
 <body>
 <div class="container">
@@ -22,30 +26,80 @@
             <a class="topMenu__logo" href="/">
                 <img class="img" src="./img/logo.png" alt="benmar-pompy" />
             </a>
+
+            <button class="topMenu__hamburger" onclick="openMobileMenu()">
+                <img class="img" src="./img/menu.svg" alt="rozwin-menu" />
+            </button>
+
+            <menu class="mobileMenu">
+                <button class="mobileMenu__closeBtn" onclick="closeMobileMenu()">
+                    <img class="img" src="./img/close.svg" alt="zamknij" />
+                </button>
+
+                <main class="mobileMenu__main">
+                    <a class="topMenu__logo" href="/">
+                        <img class="img" src="./img/logo.png" alt="benmar-pompy" />
+                    </a>
+
+                    <ul class="topMenu__menu__list">
+                        <li class="topMenu__menu__list__item">
+                            <a class="topMenu__menu__list__link" href="/">
+                                Strona główna
+                            </a>
+                        </li>
+                        <li class="topMenu__menu__list__item">
+                            <a class="topMenu__menu__list__link" href="#o-nas">
+                                O nas
+                            </a>
+                        </li>
+                        <li class="topMenu__menu__list__item">
+                            <a class="topMenu__menu__list__link" href="#oferta">
+                                Usługi
+                            </a>
+                        </li>
+                        <li class="topMenu__menu__list__item">
+                            <a class="topMenu__menu__list__link" href="#realizacja">
+                                Realizacja zlecenia
+                            </a>
+                        </li>
+                        <li class="topMenu__menu__list__item">
+                            <a class="topMenu__menu__list__link" href="#kontakt">
+                                Kontakt
+                            </a>
+                        </li>
+                    </ul>
+
+                    <a class="topMenu__menu__button flex" href="tel:+48607042741">
+                        <img class="topMenu__menu__button__icon" src="./img/phone-white.svg" alt="numer-telefonu" />
+                        607 042 741
+                    </a>
+                </main>
+            </menu>
+
             <menu class="topMenu__menu flex">
                 <ul class="topMenu__menu__list flex">
                     <li class="topMenu__menu__list__item">
-                        <a class="topMenu__menu__list__link" href="#">
+                        <a class="topMenu__menu__list__link" href="/">
                             Strona główna
                         </a>
                     </li>
                     <li class="topMenu__menu__list__item">
-                        <a class="topMenu__menu__list__link" href="#">
+                        <a class="topMenu__menu__list__link" href="#o-nas">
                             O nas
                         </a>
                     </li>
                     <li class="topMenu__menu__list__item">
-                        <a class="topMenu__menu__list__link" href="#">
+                        <a class="topMenu__menu__list__link" href="#oferta">
                             Usługi
                         </a>
                     </li>
                     <li class="topMenu__menu__list__item">
-                        <a class="topMenu__menu__list__link" href="#">
+                        <a class="topMenu__menu__list__link" href="#realizacja">
                             Realizacja zlecenia
                         </a>
                     </li>
                     <li class="topMenu__menu__list__item">
-                        <a class="topMenu__menu__list__link" href="#">
+                        <a class="topMenu__menu__list__link" href="#kontakt">
                             Kontakt
                         </a>
                     </li>
@@ -68,7 +122,7 @@
             <p class="hero__text">
                 Specjalizujemy się w branży utrzymania ruchu. Regenerujemy i serwisujemy pompy przemysłowe, silniki oraz inne urządzenia. Mamy świetne zaplecze techniczne oraz doświadczenie, co pozwala nam świadczyć usługi na najwyższym poziomie.
             </p>
-            <a class="hero__button">
+            <a class="hero__button" href="#oferta">
                 Nasza oferta
                 <img class="hero__button__arrow" src="./img/next-white.svg" alt="wiecej" />
             </a>
@@ -81,7 +135,7 @@
                     Naprawy i remonty
                 </h4>
                 <p class="hero__square__text">
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                    Specjalizujemy się w naprawach pomp próżniowych, do cieczy, materiałów sypkich oraz zatapialnych.
                 </p>
             </section>
             <section class="hero__square">
@@ -90,7 +144,7 @@
                     Regeneracja i konserwacje
                 </h4>
                 <p class="hero__square__text">
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                    Oferujemy regenerację wałów, uzwojeń i pokryw silników.
                 </p>
             </section>
             <section class="hero__square">
@@ -99,7 +153,7 @@
                     Przeglądy serwisowe
                 </h4>
                 <p class="hero__square__text">
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                    U nas dokonasz przeglądu serwisowego pomp próżniowych, do cieczy, materiałów sypkich czy zatapialnych.
                 </p>
             </section>
             <section class="hero__square">
@@ -108,37 +162,37 @@
                     Transport i dojazd do Klienta
                 </h4>
                 <p class="hero__square__text">
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                    Potrzebujesz kompleksowej obsługi wraz z dojazdem? Skontaktuj się z nami - na pewno się dogadamy!
                 </p>
             </section>
         </div>
     </main>
-    <section class="section section--aboutUs flex">
-        <figure class="section__img">
+    <section class="section section--aboutUs flex" id="o-nas">
+        <figure class="section__img" data-aos="fade-in">
             <img class="img" src="./img/pompy.png" alt="naprawa-pomp-golub-dobrzyn" />
         </figure>
         <article class="section__content">
             <h3 class="section__content__header">
                 O nas
             </h3>
-            <main class="section__content__text">
+            <main class="section__content__text" data-aos="fade-in">
                 <p class="text">
-                    Nasza firma specjalizuje się w branży utrzymania ruchu. Od wielu lat wykonujemy usługi, jakimi są regeneracja, serwis pomp oraz silników i innych urządzeń. Na przestrzeni lat rozbudowaliśmy zaplecze techniczne.
+                    Nasza firma specjalizuje się w branży utrzymania ruchu. Od wielu lat wykonujemy usługi, jakimi są <b>regeneracja, serwis pomp oraz silników i innych urządzeń</b>. Na przestrzeni lat rozbudowaliśmy zaplecze techniczne.
                 </p>
                 <p class="text">
                     Dzięki możliwości przesyłania pomp do serwisu spedycją działamy w zasięgu ogólnokrajowym, a na wykonane przez nas usługi zawsze udzielana jest gwarancja. Urządzenia możemy odebrać również własnym transportem jak i dostarczyć je do klienta.
                 </p>
                 <p class="text">
-                    Po wykonaniu usługi PROFESJONALNIE DEZYNFEKUJEMY urządzenia przed ich dostarczeniem.
+                    Po wykonaniu usługi <b>profesjonalnie dezynfekujemy</b> urządzenia przed ich dostarczeniem.
                 </p>
             </main>
-            <a class="hero__button" href="#kontakt">
+            <a class="hero__button" href="#kontakt" data-aos="fade-in">
                 Skontaktuj się z nami
                 <img class="hero__button__arrow" src="./img/next-white.svg" alt="wiecej" />
             </a>
         </article>
     </section>
-    <section class="offer">
+    <section class="offer" id="oferta">
         <header class="offer__header">
             <h3 class="offer__header__h">
                 Nasza oferta - pompy przemysłowe
@@ -148,49 +202,49 @@
             </h4>
         </header>
         <main class="offer__main section flex">
-            <section class="offer__main__item">
+            <section class="offer__main__item" data-aos="fade-in">
                 Naprawa pomp - próżniowych, do cieczy, materiałów sypkich, zatapialnych etc.
             </section>
-            <section class="offer__main__item">
+            <section class="offer__main__item" data-aos="fade-in">
                 Remonty mieszadeł
             </section>
-            <section class="offer__main__item">
+            <section class="offer__main__item" data-aos="fade-in">
                 Remonty silników elektrycznych – przezwajanie, dynamiczne wyważanie wirników
             </section>
-            <section class="offer__main__item">
+            <section class="offer__main__item" data-aos="fade-in">
                 Naprawy układów elektrycznych
             </section>
-            <section class="offer__main__item">
+            <section class="offer__main__item" data-aos="fade-in">
                 Kompleksowe remonty urządzeń
             </section>
-            <section class="offer__main__item">
+            <section class="offer__main__item" data-aos="fade-in">
                 Przeglądy serwisowe
             </section>
-            <section class="offer__main__item">
+            <section class="offer__main__item" data-aos="fade-in">
                 Wymiana materiałów eksploatacyjnych
             </section>
-            <section class="offer__main__item">
+            <section class="offer__main__item" data-aos="fade-in">
                 Wyważanie dynamiczne - jedno i dwupłaszczyznowe
             </section>
-            <section class="offer__main__item">
+            <section class="offer__main__item" data-aos="fade-in">
                 Regeneracja wałów, uzwojeń
             </section>
-            <section class="offer__main__item">
+            <section class="offer__main__item" data-aos="fade-in">
                 Regeneracja pokryw silników
             </section>
-            <section class="offer__main__item">
+            <section class="offer__main__item" data-aos="fade-in">
                 Naprawy i konserwacje elektronarzędzi
             </section>
-            <section class="offer__main__item">
+            <section class="offer__main__item" data-aos="fade-in">
                 Przezwajanie stojanów
             </section>
         </main>
     </section>
-    <section class="section section--process">
+    <section class="section section--process" id="realizacja">
         <h3 class="header--process">
             Proces realizacji zlecenia
         </h3>
-        <main class="process__main">
+        <main class="process__main" data-aos="fade-in">
             <section class="process__item">
                 <span class="process__item__number">
                     1.
@@ -293,29 +347,29 @@
             Co oferujemy?
         </h4>
         <main class="fullWidth__main section flex">
-            <section class="offer__main__item">
+            <section class="offer__main__item" data-aos="fade-in">
                 Szybką odpowiedź na zapytanie
             </section>
-            <section class="offer__main__item">
+            <section class="offer__main__item" data-aos="fade-in">
                 Możliwie szybką analizę i postawienie diagnozy
             </section>
-            <section class="offer__main__item">
+            <section class="offer__main__item" data-aos="fade-in">
                 Przedstawienie możliwości naprawy
             </section>
-            <section class="offer__main__item">
+            <section class="offer__main__item" data-aos="fade-in">
                 Osiągnięcie zadowolenia klienta
             </section>
 
         </main>
     </section>
-    <section class="contact">
+    <section class="contact" id="kontakt">
         <h3 class="header--process">
             Kontakt
         </h3>
-        <h4 class="header--process header--process--2">
+        <h4 class="header--process header--process--2" data-aos="fade-in">
             Zapraszamy do kontaktu z naszym biurem
         </h4>
-        <main class="contact__main flex">
+        <main class="contact__main flex" data-aos="fade-in">
             <a class="contact__main__link" href="tel:+48607042741">
                 <img class="contact__icon" src="./img/phone.svg" alt="telefon" />
                 607 042 741
@@ -333,6 +387,7 @@
         </h6>
     </footer>
 </div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="./main.js"></script>
 </body>
 </html>

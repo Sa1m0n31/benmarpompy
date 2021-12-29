@@ -69,6 +69,12 @@ a {
 
 .topMenu__logo {
     width: 165px;
+    transform-origin: top left;
+    transition: .2s all;
+}
+
+.topMenu__logo:hover {
+    transform: scale(1.05);
 }
 
 .img {
@@ -84,6 +90,11 @@ a {
     color: #000;
     font-weight: 500;
     text-decoration: none;
+    transition: .2s all;
+}
+
+.topMenu__menu__list__link:hover {
+    opacity: .8;
 }
 
 .topMenu__menu__list__item {
@@ -242,6 +253,7 @@ a {
 
 .offer__header__h {
     font-size: 36px;
+    text-align: center;
 }
 
 .offer__header__text {
@@ -437,4 +449,12 @@ a {
 
 .footer__header a:hover {
     opacity: 1;
+}
+
+.topMenu__hamburger {
+    display: none;
+}
+
+.mobileMenu {
+    display: none;
 }
