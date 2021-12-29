@@ -20,13 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdae1f99-2ac8-4543-883e-2a8d92b0b564" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/menu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/mobile.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +73,8 @@
       <workItem from="1639086897067" duration="966000" />
       <workItem from="1639172555210" duration="124000" />
       <workItem from="1640712859487" duration="9845000" />
-      <workItem from="1640732997019" duration="5755000" />
+      <workItem from="1640732997019" duration="5789000" />
+      <workItem from="1640744182258" duration="219000" />
     </task>
     <servers />
   </component>
@@ -94,6 +91,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1640712865567">
@@ -108,5 +106,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1640721877764" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1640744198372">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1640744198372" />
   </component>
 </project>

@@ -214,6 +214,12 @@
         height: 27px;
     }
 
+    .topBar__header {
+        text-align: center;
+        color: #fff !important;
+        text-decoration: none !important;
+    }
+
     .topMenu {
         height: 75px;
     }
@@ -270,6 +276,10 @@
     .mobileMenu .topMenu__menu__button {
         margin: 40px auto 0 !important;
     }
+
+    .section {
+        max-width: 90vw;
+    }
 }
 
 @media(max-width: 576px) {
@@ -306,6 +316,7 @@
     }
 
     .hero__header {
+        width: 100%;
         font-size: 17px;
     }
 
