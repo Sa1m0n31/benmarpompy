@@ -26,3 +26,14 @@ Array.from(document.querySelectorAll('.mobileMenu>main>ul>.topMenu__menu__list__
 });
 
 AOS.init();
+
+const splide = new Splide( '.splide', {
+    type  : 'fade',
+    rewind: true,
+    autoplay: true,
+    interval: 3000
+});
+
+splide.mount();
+
+console.log(splide);

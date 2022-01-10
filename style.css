@@ -458,3 +458,17 @@ a {
 .mobileMenu {
     display: none;
 }
+
+.splide {
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.splide__img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.header--process--gallery {
+    margin-top: 50px;
+}

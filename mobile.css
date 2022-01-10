@@ -88,6 +88,10 @@
         font-size: 28px;
     }
 
+    .splide {
+        max-width: 90%;
+    }
+
     .fullWidth {
         height: auto;
         padding: 40px 0 0;
