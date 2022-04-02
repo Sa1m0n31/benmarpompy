@@ -20,16 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdae1f99-2ac8-4543-883e-2a8d92b0b564" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/pompa1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/pompa2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/pompa3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/pompa4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/pompa5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/splide.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/splide.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polityka-prywatnosci.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/mobile.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +79,8 @@
       <workItem from="1640732997019" duration="5789000" />
       <workItem from="1640744182258" duration="219000" />
       <workItem from="1640774156567" duration="24000" />
-      <workItem from="1641850308085" duration="1581000" />
+      <workItem from="1641850308085" duration="1774000" />
+      <workItem from="1648894066439" duration="1300000" />
     </task>
     <servers />
   </component>
@@ -108,10 +104,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1640712865567" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1640774177949">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1641852099305">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1640774177949" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1641852099305" />
     <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1640721877764">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

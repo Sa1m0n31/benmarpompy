@@ -92,6 +92,10 @@
         max-width: 90%;
     }
 
+    #map {
+        height: 200px;
+    }
+
     .fullWidth {
         height: auto;
         padding: 40px 0 0;
